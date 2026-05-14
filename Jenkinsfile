@@ -20,7 +20,7 @@ pipeline {
         stage('Run Docker Container') {
 
             steps {
-                bat 'docker run -d -p 8080:8080 online-shopping-app'
+                bat 'docker run -d -p 2020:2025 online-shopping-app'
             }
         }
     }
