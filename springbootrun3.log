@@ -1,0 +1,52 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.example:online-shopping-app >-------------------
+[INFO] Building online-shopping-app 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.0:run (default-cli) > test-compile @ online-shopping-app >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ online-shopping-app ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ online-shopping-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ online-shopping-app ---
+[INFO] skip non existing resourceDirectory D:\Projects\onlineshoppingapp\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ online-shopping-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.5.0:run (default-cli) < test-compile @ online-shopping-app <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.0:run (default-cli) @ online-shopping-app ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2026-05-13T16:54:55.496+05:30  INFO 18408 --- [           main] c.e.o.OnlineShoppingAppApplication       : Starting OnlineShoppingAppApplication using Java 21.0.11 with PID 18408 (D:\Projects\onlineshoppingapp\target\classes started by harini in D:\Projects\onlineshoppingapp)
+2026-05-13T16:54:55.498+05:30  INFO 18408 --- [           main] c.e.o.OnlineShoppingAppApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-05-13T16:54:56.056+05:30  INFO 18408 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-13T16:54:56.115+05:30  INFO 18408 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2026-05-13T16:54:56.536+05:30  INFO 18408 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-05-13T16:54:56.549+05:30  INFO 18408 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-13T16:54:56.550+05:30  INFO 18408 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2026-05-13T16:54:56.590+05:30  INFO 18408 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-13T16:54:56.591+05:30  INFO 18408 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1036 ms
+2026-05-13T16:54:56.717+05:30  INFO 18408 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-13T16:54:56.750+05:30  INFO 18408 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2026-05-13T16:54:56.775+05:30  INFO 18408 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-13T16:54:56.996+05:30  INFO 18408 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-13T16:54:57.018+05:30  INFO 18408 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-13T16:54:57.163+05:30  INFO 18408 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connectio
